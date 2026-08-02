@@ -8,28 +8,28 @@
 class Cljgo < Formula
   desc "Clojure hosted on Go — tree-walk REPL, AOT-emits Go, universal Go interop"
   homepage "https://github.com/muthuishere/cljgo"
-  version "0.2.0"
+  version "0.8.9"
   license "EPL-1.0"
 
   on_macos do
     on_arm do
       url "https://github.com/muthuishere/cljgo/releases/download/v#{version}/cljgo_#{version}_darwin_arm64.tar.gz"
-      sha256 "f843fd526e68e7a5f77b06b267ec4dd9b60f1dda6cbdd463d88dd4f0ea38966f"
+      sha256 "060bc8a20f70603f012267ccb49d0419a0b640f5cfaaafd08c183998395ac8e6"
     end
     on_intel do
       url "https://github.com/muthuishere/cljgo/releases/download/v#{version}/cljgo_#{version}_darwin_amd64.tar.gz"
-      sha256 "1da60c6b927fb0ab8fb57d01c5d5c70f9126161c47d8aa78b5e051bd4295e8ec"
+      sha256 "6ccab9442722170dc9ad7fffeec424cfdd63521fcb55466a784b07d405a7daf0"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/muthuishere/cljgo/releases/download/v#{version}/cljgo_#{version}_linux_arm64.tar.gz"
-      sha256 "d1530fc353d91e2c73fed0607b642fb68d2d4d5336e8aa58194f4f1daec78ece"
+      sha256 "279b7f19594998a8f52fb71471e83e85417957e75b7d00d0e624082de22500ed"
     end
     on_intel do
       url "https://github.com/muthuishere/cljgo/releases/download/v#{version}/cljgo_#{version}_linux_amd64.tar.gz"
-      sha256 "7e7a31a4941e8e472f562619ee39f7b6d3f64c7b1f5aaede7c26709862d15ea3"
+      sha256 "b4bbf9938a379606ff1b395f1911d074d3a95d3af28608902a6ef042e4a27066"
     end
   end
 
